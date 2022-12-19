@@ -1,5 +1,5 @@
 const express = require("express");
-const planetRouter = require("./routes/planets/planets.routes.js");
+const planetRouter = require("./routes/planets/planets.routes");
 
 const app = express();  
 // Adding MiddleWare
