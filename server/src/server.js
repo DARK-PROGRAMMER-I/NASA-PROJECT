@@ -1,8 +1,8 @@
 // In this file we will keep all the server-related info
 const http = require("http");
-const app = require("app");
+const app = require("./app.js");
 
-const PORT = process.argv.PORT || 8000;
+const PORT = process.env.PORT || 8000;
 
 const server = http.createServer(app);
 
